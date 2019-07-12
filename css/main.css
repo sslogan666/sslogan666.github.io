@@ -622,10 +622,10 @@ img::-moz-selection {
     background-image: linear-gradient(140deg,rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8)); }
 	
    .cover-lightblue{
-	background-color: rgba(119, 170, 230, 0.16);
-	background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8));
-    background-image: linear-gradient(140deg,#97a5f999 20%, #020515cc);
-   }
+	background-color: rgba(68, 68, 68, 0.6);
+   /* background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));*/
+    background-image: linear-gradient(140deg,rgba(151, 165, 249, 0.6) 20%, rgba(2, 5, 21, 0.8));}
+	
   .cover-disabled {
     background: none; 
   }
