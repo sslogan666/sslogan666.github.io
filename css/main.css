@@ -1179,7 +1179,7 @@ input[type="tel"]:-ms-input-placeholder {
  }
 
 
-/*头像效果-start*/
+/*翻转头像效果-start*/
 
 html {
     font-family: sans-serif;
@@ -1373,8 +1373,12 @@ body {
     font-size: 0.9em;
   }
 }
-/*头像效果-end*/
+/*翻转头像效果-end*/
 
+
+
+/*旋转头像效果-start*/
+/*旋转头像效果-end*/
 /*导航按钮-start*/
 nav a {
   position: relative;
