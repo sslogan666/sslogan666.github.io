@@ -1,27 +1,28 @@
 # Basic
 title: 欧家欣
-subtitle: 个人站
-description: 欢迎来到我的个人站~
+#subtitle: 个人站
+description: 欢迎来到我的网站~
 # 头像里面的标题
 avatarTitle: Logan
 # 头像里面的描述
 avatarDesc: 学习/笔记
-url: "http://baixin.io"
+url: "http://sslogan666.github.io"
 
 # Comment
 comment:
-    disqus: leopard
+    #disqus: leopard
     # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:
-    weibo: 5366874726 
-    github: leopardpan
+    #weibo: 5366874726 
+    github: sslogan666
     # zhihu: panpanleopard
     # juejin: xxx
-    jianshu: 2ada30d8d0f7
+    #jianshu: 2ada30d8d0f7
     # twitter: 
+    cnblogs:sslogan
     mail: sslogan@163.com
 
 
