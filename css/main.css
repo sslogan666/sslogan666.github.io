@@ -620,7 +620,12 @@ img::-moz-selection {
     background-color: rgba(61, 66, 96, 0.6);
     background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8));
     background-image: linear-gradient(140deg,rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8)); }
-
+	
+   .cover-lightblue{
+	background-color: rgba(119, 170, 230, 0.16);
+	background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8));
+    background-image: linear-gradient(140deg,#97a5f999 20%, #020515cc);
+   }
   .cover-disabled {
     background: none; 
   }
