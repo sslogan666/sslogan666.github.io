@@ -12,9 +12,7 @@
 
 ![mark](http://image.ojx666.xyz/blog/20190714/qngotMW8QEde.png?imageslim)
 
-安装jekyll（你还需要了解一下jekyll，这是[Jekyll中文文档](http://jekyllcn.com/docs/home/) 
-
-这是[官方文档](https://jekyllrb.com/docs/)，比中文文档更新及时）
+安装jekyll（你还需要了解一下jekyll，这是[Jekyll中文文档](http://jekyllcn.com/docs/home/)，这是[官方文档](https://jekyllrb.com/docs/)，比中文文档更新及时）
 
 > $ gem install jekyll
 
@@ -42,9 +40,7 @@
 
 `修改头像和背景图片`：将images文件夹下，名为avatar.jpg（头像）和background-cover.jpg（背景图片）替换为你喜欢的图片
 
-`写自己的文章`：_posts文件夹是放文章的地方，你可以先留我的一篇文章，其他都删除，打开这篇文章，将内容修改为你自己的
-
-注意，头部信息不要更改
+`写自己的文章`：_posts文件夹是放文章的地方，你可以先留一篇文章，其他都删除，将这篇文章的内容修改为你自己的，注意，头部信息不要更改
 
 保存之后，再重复步骤【**在本地运行博客**】，就可以看到你自己的博客了
 
@@ -56,12 +52,11 @@
 
 你可以先按下面步骤来，再了解[GitHub Pages](https://pages.github.com/)
 
-在你的github里创建一个username.github.io的仓库，username指的值你的github的用户名  
-创建完成后，使用git push,把你本地的仓库push到你的github上username.github.io仓库下
+在你的github里创建一个username.github.io的仓库，username指的是你的github的用户名，创建完成后，使用git push,把你本地的
 
-打开浏览器访问`https://username.github.io`，首次访问，可能需要10分钟左右后，才能访问到
+仓库push到你的github上username.github.io仓库下
 
-喝杯茶，耐心等待:grin:
+打开浏览器访问`https://username.github.io`，首次访问，可能需要10分钟左右后，才能访问到，喝杯茶，耐心等待:grin:
 
 
 ## 效果预览
