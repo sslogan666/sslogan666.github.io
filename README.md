@@ -66,6 +66,10 @@
 
 ## 效果预览
 
+#### 博客内容
+
+![mark](http://image.ojx666.xyz/blog/20190714/QIpTWiivFCak.png?imageslim)
+
 #### 首页
 
 ![mark](http://image.ojx666.xyz/blog/20190714/jJw5nPhy1JMi.png?imageslim)
