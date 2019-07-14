@@ -74,13 +74,9 @@
 
 ![mark](http://image.ojx666.xyz/blog/20190714/VRzLRgjdslz0.gif)
 
-***
-
 #### 博客内容 （关于我）
 
-![mark](http://image.ojx666.xyz/blog/20190714/tJHxQzhBR4U7.png?imageslim)   
-
----
+![mark](http://image.ojx666.xyz/blog/20190714/QIpTWiivFCak.png?imageslim)   
 
 #### 感谢   
 
