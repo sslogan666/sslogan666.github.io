@@ -11,9 +11,7 @@ title: 关于我
 
 # 关于博客
 
-这个博客是参照[潘柏信](http://baixin.io:8000/)的博客搭建的，修改了头像效果，背景图片，主页色调
-
-感谢潘柏信提供经验
+这个博客是参照[leopardpan.github.io](https://github.com/leopardpan/leopardpan.github.io/)修改的，修改了头像效果，背景图片，主页色调，感谢**leopardpan.github.io**提供经验
 
 如果你也想搭建和我一样的博客，可以参考我的整个搭建过程
 
