@@ -1,7 +1,7 @@
 # Basic
 title: 欧家欣
-#subtitle: 个人站
-description: 欢迎来到我的网站~
+subtitle: 学习/笔记
+description: 欢迎来到我的博客~
 # 头像里面的标题
 avatarTitle: Logan
 # 头像里面的描述
@@ -64,7 +64,7 @@ blog_button:
 # Navigation buttons in the front page.s
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 分类, description: tags, url: '/tags'}      
     - {title: 关于我, description: about, url: '/about'}      
     
 

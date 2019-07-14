@@ -23,6 +23,8 @@ title: 关于我
 
 有关于博客问题和意见都可以在[github](https://github.com/sslogan666/sslogan666.github.io)上提出，如果我知道我会第一时间回复
 
+我也刚入门，大家一起学习，分享经验
+
 让我们一起来打造一个精美的主题吧~ 
 
 博客源码在 [github](https://github.com/sslogan666/sslogan666.github.io)上，欢迎你使用我的模板，按照自己的意愿修改成自己的博客
