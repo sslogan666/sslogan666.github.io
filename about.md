@@ -13,7 +13,7 @@ title: 关于我
 
 这个博客是参照[潘柏信](http://baixin.io:8000/)的博客搭建的，修改了头像效果，背景图片，主页色调
 
-其他样式基本没变，感谢潘柏信提供经验
+感谢潘柏信提供经验
 
 如果你也想搭建和我一样的博客，可以参考我的整个搭建过程
 
@@ -25,8 +25,9 @@ title: 关于我
 
 让我们一起来打造一个精美的主题吧~ 
 
+博客源码在 [github](https://github.com/sslogan666/sslogan666.github.io)上，欢迎你使用我的模板，按照自己的意愿修改成自己的博客
 
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
+你的 Star 是我更新的动力，谢谢~
 
 <p> 
 
