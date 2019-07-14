@@ -76,7 +76,7 @@
 
 #### 博客内容 （关于我）
 
-![mark](http://image.ojx666.xyz/blog/20190714/dB0k07pV0Tp3.png?imageslim)   
+![mark](http://image.ojx666.xyz/blog/20190714/P0svvjQGXHsy.jpg?imageslim)   
 
 #### 感谢   
 
