@@ -59,15 +59,15 @@
 
 ## 效果预览
 
-#### 首页
-
-![mark](http://image.ojx666.xyz/blog/20190717/lbjPNni5s7fr.jpg?imageslim)
-
-#### 头像效果
+#### 首页和头像效果
 
 ![mark](http://image.ojx666.xyz/blog/20190714/VRzLRgjdslz0.gif)
 
-#### 博客内容 （关于我）
+#### 正文
+
+![mark](http://image.ojx666.xyz/blog/20190717/BdQxyFyMinma.jpg?imageslim)
+
+#### 关于我
 
 ![mark](http://image.ojx666.xyz/blog/20190714/P0svvjQGXHsy.jpg?imageslim)   
 
