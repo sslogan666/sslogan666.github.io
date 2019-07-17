@@ -20,7 +20,7 @@ Usage:
 {% if site.JB.tags_list.provider == "custom" %}
   {% include custom/tags_list %}
 {% else %}
-  {% if tags_list.first[0] == null %}
+   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %} 
     	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
     {% endfor %}
@@ -28,6 +28,6 @@ Usage:
     {% for tag in tags_list %} 
     	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
     {% endfor %}
-  {% endif %}
+  {% endif %} 
 {% endif %}
 {% assign tags_list = nil %}
