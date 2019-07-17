@@ -61,6 +61,15 @@
             </a>
           </li>
           {% endif %}
+		  
+		  {% if site.social.csdn %}
+          <!-- csdn -->
+          <li class="navigation__item_social">
+            <a href="https://blog.csdn.net/{{site.social.csdn}}" title="@{{site.social.csdn}} CSDN" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/csdn.jpg);"></div>
+            </a>
+          </li>
+          {% endif %}
 
 			{% if site.social.cnblogs %}
           <!-- cnblogs -->
