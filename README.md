@@ -8,7 +8,7 @@
 
 例如，我安装的是**Ruby+Devkit 2.5.X (x64)**
 
-我第一次安装遇到很多问题，如果你也遇到问题请看我的[搭建过程](http://blog.ojx666.xyz/)，里面有解决的方法，或请在[Issues](https://github.com/sslogan666/sslogan666.github.io/issues)里提问
+我第一次安装遇到很多问题，如果你也遇到问题请看我的[搭建过程](http://blog.ojx666.xyz/tags/#%E5%8D%9A%E5%AE%A2-ref)，里面有解决的方法，或请在[Issues](https://github.com/sslogan666/sslogan666.github.io/issues)里提问
 
 ![mark](http://image.ojx666.xyz/blog/20190714/qngotMW8QEde.png?imageslim)
 
@@ -44,7 +44,7 @@
 
 保存之后，再重复步骤【**在本地运行博客**】，就可以看到你自己的博客了
 
-如果你想更多的个性化，务必了解[jekyll](http://jekyllcn.com/docs/home/)，还可以看我的[搭建过程](http://blog.ojx666.xyz/)，里面有更多的个性化内容
+如果你想更多的个性化，务必了解[jekyll](http://jekyllcn.com/docs/home/)，还可以看我的[博客个性化过程](http://blog.ojx666.xyz/2019/07/jekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A22/)，里面有更多的个性化内容
 
 至此，基本的个性化博客实现了，但博客只在本地运行，下面将其与github pages结合，让你的朋友也可以访问你的博客   
 
@@ -52,9 +52,7 @@
 
 你可以先按下面步骤来，再了解[GitHub Pages](https://pages.github.com/)
 
-在你的github里创建一个username.github.io的仓库，username指的是你的github的用户名，创建完成后，使用git push,把你本地的
-
-仓库push到你的github上username.github.io仓库下
+在你的github里创建一个username.github.io的仓库，username指的是你的github的用户名，创建完成后，使用git push,把你本地的仓库push到你的github上username.github.io仓库下
 
 打开浏览器访问`https://username.github.io`，首次访问，可能需要10分钟左右后，才能访问到，喝杯茶，耐心等待:grin:
 
@@ -63,7 +61,7 @@
 
 #### 首页
 
-![mark](http://image.ojx666.xyz/blog/20190714/jJw5nPhy1JMi.png?imageslim)
+![mark](http://image.ojx666.xyz/blog/20190717/lbjPNni5s7fr.jpg?imageslim)
 
 #### 头像效果
 
