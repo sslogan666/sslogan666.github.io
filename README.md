@@ -1,6 +1,6 @@
 ## 使用手册
 
-[Jekyll搭建个人博客](http://blog.ojx666.xyz/tags/#%E5%8D%9A%E5%AE%A2-ref)  :  我记录下了搭建博客的过程，里面详细描述了我遇到的问题和解决方法，当你遇到问题时希望对你有所帮助
+[Jekyll搭建个人博客](https://sslogan666.github.io/tags/#博客-ref)  :  我记录下了搭建博客的过程，里面详细描述了我遇到的问题和解决方法，当你遇到问题时希望对你有所帮助
 
 #### 安装Jekyll
 
@@ -8,7 +8,7 @@
 
 例如，我安装的是**Ruby+Devkit 2.5.X (x64)**
 
-我第一次安装遇到很多问题，如果你也遇到问题请看我的[搭建过程](http://blog.ojx666.xyz/tags/#%E5%8D%9A%E5%AE%A2-ref)，里面有解决的方法，或请在[Issues](https://github.com/sslogan666/sslogan666.github.io/issues)里提问
+我第一次安装遇到很多问题，如果你也遇到问题请看我的[搭建过程](https://sslogan666.github.io/tags/#博客-ref)，里面有解决的方法，或请在[Issues](https://github.com/sslogan666/sslogan666.github.io/issues)里提问
 
 ![mark](https://wx1.sinaimg.cn/large/005ODTEngy1gfswudyyh2j30wv0jhwjf.jpg)
 
@@ -44,7 +44,7 @@
 
 保存之后，再重复步骤【**在本地运行博客**】，就可以看到你自己的博客了
 
-如果你想更多的个性化，务必了解[jekyll](http://jekyllcn.com/docs/home/)，还可以看我的[博客个性化过程](http://blog.ojx666.xyz/2019/07/jekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A22/)，里面有更多的个性化内容
+如果你想更多的个性化，务必了解[jekyll](http://jekyllcn.com/docs/home/)，还可以看我的[博客个性化过程](https://sslogan666.github.io/2019/07/jekyll搭建个人博客2/)，里面有更多的个性化内容
 
 至此，基本的个性化博客实现了，但博客只在本地运行，下面将其与github pages结合，让你的朋友也可以访问你的博客   
 
