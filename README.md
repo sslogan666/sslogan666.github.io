@@ -10,7 +10,7 @@
 
 我第一次安装遇到很多问题，如果你也遇到问题请看我的[搭建过程](http://blog.ojx666.xyz/tags/#%E5%8D%9A%E5%AE%A2-ref)，里面有解决的方法，或请在[Issues](https://github.com/sslogan666/sslogan666.github.io/issues)里提问
 
-![mark](http://image.ojx666.xyz/blog/20190714/qngotMW8QEde.png?imageslim)
+![mark](images/posts/博客基础图片/Snipaste_2020-06-15_09-23-24.jpg)
 
 安装jekyll（你还需要了解一下jekyll，这是[Jekyll中文文档](http://jekyllcn.com/docs/home/)，这是[官方文档](https://jekyllrb.com/docs/)，比中文文档更新及时）
 
@@ -61,15 +61,15 @@
 
 #### 首页和头像效果
 
-![mark](http://image.ojx666.xyz/blog/20190714/VRzLRgjdslz0.gif)
+![mark](images/posts/博客基础图片/Honeycam%202020-06-15%2012-51-58.gif)
 
 #### 正文
 
-![mark](http://image.ojx666.xyz/blog/20190717/BdQxyFyMinma.jpg?imageslim)
+![mark](images/posts/博客基础图片/Snipaste_2019-07-17_15-21-21.jpg)
 
 #### 关于我
 
-![mark](http://image.ojx666.xyz/blog/20190714/P0svvjQGXHsy.jpg?imageslim)   
+![mark](images/posts/博客基础图片/Snipaste_2020-06-15_12-54-02.jpg)   
 
 #### 感谢   
 
