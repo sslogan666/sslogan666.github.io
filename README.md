@@ -10,7 +10,7 @@
 
 我第一次安装遇到很多问题，如果你也遇到问题请看我的[搭建过程](http://blog.ojx666.xyz/tags/#%E5%8D%9A%E5%AE%A2-ref)，里面有解决的方法，或请在[Issues](https://github.com/sslogan666/sslogan666.github.io/issues)里提问
 
-![mark](/images/avatar.jpg)
+![mark](https://wx1.sinaimg.cn/large/005ODTEngy1gfswudyyh2j30wv0jhwjf.jpg)
 
 安装jekyll（你还需要了解一下jekyll，这是[Jekyll中文文档](http://jekyllcn.com/docs/home/)，这是[官方文档](https://jekyllrb.com/docs/)，比中文文档更新及时）
 
@@ -61,15 +61,15 @@
 
 #### 首页和头像效果
 
-![mark](images/posts/t2.gif)
+![mark](https://wx4.sinaimg.cn/large/005ODTEngy1gfswudz761g311s0i6tem.gif)
 
 #### 正文
 
-![mark](images/posts/t3.jpg)
+![mark](https://wx3.sinaimg.cn/large/005ODTEngy1gfswudyoucj311f0ikae3.jpg)
 
 #### 关于我
 
-![mark](images/posts/t4.jpg)   
+![mark](https://wx3.sinaimg.cn/large/005ODTEngy1gfswudztj6j311b0i5acf.jpg)   
 
 #### 感谢   
 
