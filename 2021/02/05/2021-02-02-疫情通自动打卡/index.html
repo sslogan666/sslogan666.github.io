@@ -20,12 +20,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="功能python脚本+腾讯云函数，实现微信疫情通每日自动打卡。 打卡记录展示我用腾讯云函数每天早上8点定时执行脚本，将打卡结果发送到了自己的邮箱，下面是邮箱中收到的2月2日-2月5日打卡记录，“操作成功”就是打卡成功了。&lt; !–more–&gt;    实现思路正常打卡时，每天只需要填好表单后点击“提交信息”按钮就完成打卡了，本质上是向某个服务器发送了一个POST请求，将体温、位置等信息提交">
+  <meta name="description" content="功能python脚本+腾讯云函数，实现微信疫情通每日自动打卡。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="疫情通自动打卡">
 <meta property="og:url" content="http://example.com/2021/02/05/2021-02-02-%E7%96%AB%E6%83%85%E9%80%9A%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1/index.html">
 <meta property="og:site_name" content="欧家欣">
-<meta property="og:description" content="功能python脚本+腾讯云函数，实现微信疫情通每日自动打卡。 打卡记录展示我用腾讯云函数每天早上8点定时执行脚本，将打卡结果发送到了自己的邮箱，下面是邮箱中收到的2月2日-2月5日打卡记录，“操作成功”就是打卡成功了。&lt; !–more–&gt;    实现思路正常打卡时，每天只需要填好表单后点击“提交信息”按钮就完成打卡了，本质上是向某个服务器发送了一个POST请求，将体温、位置等信息提交">
+<meta property="og:description" content="功能python脚本+腾讯云函数，实现微信疫情通每日自动打卡。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://tva1.sinaimg.com/large/005ODTEnly1gnccjvxxzzj30tw11cdik.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.com/middle/005ODTEnly1gn9e3rkv24j30u01m7jvj.jpg">
@@ -40,7 +40,7 @@
 <meta property="og:image" content="https://tva1.sinaimg.com/large/005ODTEnly1gn9e3rq27rj30li0f4403.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.com/large/005ODTEnly1gn9f4yp6xcj30vc03yt8q.jpg">
 <meta property="article:published_time" content="2021-02-04T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-02-17T04:20:11.978Z">
+<meta property="article:modified_time" content="2021-02-17T15:38:06.477Z">
 <meta property="article:author" content="JiaXin Ou">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="爬虫">
@@ -208,7 +208,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-02-17 12:20:11" itemprop="dateModified" datetime="2021-02-17T12:20:11+08:00">2021-02-17</time>
+                <time title="修改时间：2021-02-17 23:38:06" itemprop="dateModified" datetime="2021-02-17T23:38:06+08:00">2021-02-17</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -216,7 +216,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%85%B6%E4%BB%96/" itemprop="url" rel="index"><span itemprop="name">其他</span></a>
+                  <a href="/categories/%E6%87%92%E4%BA%BA%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">懒人工具</span></a>
                 </span>
             </span>
 
@@ -232,8 +232,11 @@
 
       
         <h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><p>python脚本+腾讯云函数，实现微信疫情通每日自动打卡。</p>
-<h3 id="打卡记录展示"><a href="#打卡记录展示" class="headerlink" title="打卡记录展示"></a>打卡记录展示</h3><p>我用腾讯云函数每天早上8点定时执行脚本，将打卡结果发送到了自己的邮箱，下面是邮箱中收到的2月2日-2月5日打卡记录，“操作成功”就是打卡成功了。<br>&lt; !–more–&gt; </p>
+<a id="more"></a>
+
+<h3 id="打卡记录展示"><a href="#打卡记录展示" class="headerlink" title="打卡记录展示"></a>打卡记录展示</h3><p>我用腾讯云函数每天早上8点定时执行脚本，将打卡结果发送到了自己的邮箱，下面是邮箱中收到的2月2日-2月5日打卡记录，“操作成功”就是打卡成功了。</p>
 <img src="https://tva1.sinaimg.com/large/005ODTEnly1gnccjvxxzzj30tw11cdik.jpg" style="zoom: 33%;" />
+
 
 <h3 id="实现思路"><a href="#实现思路" class="headerlink" title="实现思路"></a>实现思路</h3><p>正常打卡时，每天只需要填好表单后点击“提交信息”按钮就完成打卡了，本质上是向某个服务器发送了一个POST请求，将体温、位置等信息提交到服务器。所以只需要知道向哪个服务器提交了什么数据这两个信息，就可以用代码向相同的服务器发送相同的数据实现打卡。将打卡代码放置在云服务器上，让脚本每日定时执行，就能够实现每日自动打卡，可以使用<a target="_blank" rel="noopener" href="https://cloud.tencent.com/product/scf">腾讯云函数</a>，非常方便，而且免费的流量也足够用了。</p>
 <h3 id="实现过程"><a href="#实现过程" class="headerlink" title="实现过程"></a>实现过程</h3><ol>
@@ -324,13 +327,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/11/19/2020-11-19-%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E8%87%AA%E5%8A%A8%E7%AD%94%E9%A2%98/" rel="prev" title="实验室安全教育自动答题">
-      <i class="fa fa-chevron-left"></i> 实验室安全教育自动答题
+    <a href="/2020/11/19/2020-11-19-%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E8%87%AA%E5%8A%A8%E7%AD%94%E9%A2%98/" rel="prev" title="疫情通自动打卡">
+      <i class="fa fa-chevron-left"></i> 疫情通自动打卡
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/02/17/hello-world/" rel="next" title="Hello World">
-      Hello World <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -405,7 +405,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -418,7 +418,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
