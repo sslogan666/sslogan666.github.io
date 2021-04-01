@@ -441,6 +441,9 @@ pre,
 code {
   font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
+pre.mermaid {
+  text-align: center;
+}
 code {
   background: #eee;
   border-radius: 3px;
@@ -1218,7 +1221,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f8f;
+  background: #6239ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
