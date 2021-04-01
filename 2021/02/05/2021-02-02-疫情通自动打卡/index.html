@@ -39,7 +39,7 @@
 <meta property="og:image" content="http://image.xiaocaiji.site/blog/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210202175920.png">
 <meta property="og:image" content="http://image.xiaocaiji.site/blog/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210202193148.png">
 <meta property="article:published_time" content="2021-02-04T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-04-01T10:58:58.786Z">
+<meta property="article:modified_time" content="2021-04-01T12:02:41.185Z">
 <meta property="article:author" content="欧家欣">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="爬虫">
@@ -283,7 +283,7 @@
 </li>
 <li><p>整个提交流程如下</p>
 <pre class="mermaid">   graph TD
-      A["<p>操作目的: 获取eai-sess和UUKey参数</p><hr><p>POST请求地址: https://app.xaut.edu.cn/uc/wap/login/check</p><hr><p>请求参数: {username: 学号, password: 密码}</p><hr><p>用正则表达式匹配响应头Set-Cookie字段中的eai-sess和UUKey</p>"] --eai-sess && UUKey--> B["<p>操作目的: 提交信息, 进行打卡</p><hr><p>POST请求地址: https://app.xaut.edu.cn/ncov/wap/default/save</p><hr><p>请求参数: 表单中的信息</p><hr><p>将提交结果通过邮件发送到手机</p>"]</pre>
+      A["<p>操作目的: 获取eai-sess和UUKey参数</p><p>POST请求地址: https://app.xaut.edu.cn/uc/wap/login/check</p><p>请求参数: {username: 学号, password: 密码}</p><p>用正则表达式匹配响应头Set-Cookie字段中的eai-sess和UUKey</p>"] --eai-sess && UUKey--> B[<p>操作目的: 提交信息, 进行打卡</p><p>POST请求地址: https://app.xaut.edu.cn/ncov/wap/default/save</p><p>请求参数: 表单中的信息</p><p>将提交结果通过邮件发送到手机</p>]</pre>
 
 
 </li>
@@ -529,14 +529,20 @@
 
 
 
-
-  <script src='//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js'></script>
-  <script>
-    if (window.mermaid) {
-      mermaid.initialize(JSON.stringify());
-    }
-  </script>
-
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('http://cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'default',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 },
+      securityLevel: 'antiscript'
+    });
+  }, window.mermaid);
+}
+</script>
 
 
   
